@@ -2,6 +2,9 @@
 name = "evdev-keys"
 version = "0.2.0"
 edition = "2021"
+license = "Unlicense"
+description = "Enable to write keys of evdev like `KEY_1` instead of `Key::KEY_1`."
+repository = "https://github.com/nanikamado/evdev-keys"
 
 [dependencies]
 evdev = "0.12.1"
